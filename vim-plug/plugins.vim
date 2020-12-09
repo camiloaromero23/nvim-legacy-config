@@ -28,12 +28,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Explorer Icons
     Plug 'ryanoasis/vim-devicons'
     
-    " Code completion
-    "Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
-    "Plug 'neoclide/coc-tabnine', {'do': 'yarn install --frozen-lockfile'}
-    "Plug 'neoclide/coc-yaml', {'do': 'yarn install --frozen-lockfile'}
-    "Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
-
     Plug 'leafgarland/typescript-vim'
     Plug 'peitalin/vim-jsx-typescript'
     
