@@ -25,5 +25,12 @@
 
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
   "workspace.ignoredFiletypes": ["markdown", "log", "txt", "help"],
-  "coc.source.buffer.ignoreGitignore": true
+  "coc.source.buffer.ignoreGitignore": true,
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": false,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  }
 }

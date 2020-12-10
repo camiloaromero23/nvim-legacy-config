@@ -1,16 +1,34 @@
     " NERDTree Config
-    let g:NERDTreeShowHidden = 1
-    let g:NERDTreeMinimalUI = 1
-    let g:NERDTreeIgnore = []
-    let g:NERDTreeStatusline = ''
+    "let g:NERDTreeShowHidden = 1
+    "let g:NERDTreeMinimalUI = 1
+    "let g:NERDTreeIgnore = []
+    "let g:NERDTreeStatusline = ''
     " Automaticaly close nvim if NERDTree is only thing left open
-    autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+    "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
     " Toggle
-    nnoremap <silent> <C-e> :NERDTreeToggle<CR>
+    "nnoremap <silent> <C-e> :NERDTreeToggle<CR>
     
+    " Coc-explorer
+    let g:coc_explorer_global_presets = {
+\   '.vim': {
+\     'root-uri': '~/.vim',
+\   },
+\   'tab': {
+\     'position': 'tab',
+\     'quit-on-open': v:true,
+\   },
+\   
+\   'simplify': {
+\     'file-child-template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
+\   }
+\ }
+
+nmap <C-e> :CocCommand explorer<CR>
+autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
     "COC completions 
     let g:coc_global_extensions = [
+    \'coc-explorer',
     \'coc-emmet',
     \'coc-css',
     \'coc-html',
