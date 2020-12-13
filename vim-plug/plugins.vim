@@ -45,7 +45,4 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'alvan/vim-closetag'
     Plug 'tpope/vim-surround'
 
-    "Plug 'Xuyuanp/nerdtree-git-plugin'
-    "Plug 'tsony-tsonev/nerdtree-git-plugin'
-    "Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     call plug#end()
