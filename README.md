@@ -2,7 +2,25 @@
 
 ## Installing dependencies
 
-### Install nodejs
+### Install NodeJS
+
+#### Install NVM
+``` console
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | zsh
+```
+
+Refresh terminal
+
+For erbium/LTS version (NodeJS v12)
+``` console
+nvm install lts/erbium
+```
+
+For LTS node version
+``` console
+nvm install --lts
+```
+
 ``` console
 npm install -g neovim
 ```
@@ -11,9 +29,15 @@ npm install -g neovim
 pip3 install neovim
 ```
 ### Install fzf
+For Arch-based distros
 ``` console
 sudo pacman -S fzf ripgrep the_silver_searcher fd
 yay -S universal-ctags-git
+```
+
+For Debian-based distros
+``` console
+sudo apt install fzf ripgrep universal-ctags silversearcher-ag fd-find
 ```
 
 ### Which
