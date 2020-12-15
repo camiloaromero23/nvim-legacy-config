@@ -42,4 +42,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'alvan/vim-closetag'
     Plug 'tpope/vim-surround'
 
+    " Vim which key
+    Plug 'liuchengxu/vim-which-key'
+
     call plug#end()

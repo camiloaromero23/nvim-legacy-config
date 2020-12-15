@@ -2,8 +2,21 @@
 
 ## Installing dependencies
 
--   Install nodejs
--   Install python3
+### Install nodejs
+``` console
+npm install -g neovim
+```
+### Install python3
+``` console
+pip3 install neovim
+```
+### Install fzf
+``` console
+sudo pacman -S fzf ripgrep the_silver_searcher fd
+yay -S universal-ctags-git
+```
+
+### Which
 
 ## Finish installation
 Install VimPlug
