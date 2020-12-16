@@ -26,7 +26,7 @@ set number                              " Line numbers
 set cursorline                          " Enable highlighting of the current line
 hi CursorLine term=bold cterm=bold guibg=#0c1421
 hi CursorLineNr term=bold cterm=bold guibg=#0c1421
-"set background=dark                     " tell vim what the background color looks like
+set background=dark                     " tell vim what the background color looks like
 set showtabline=4                       " Always show tabs
 "set noshowmode                          " We don't need to see things like -- INSERT -- anymore
 set nobackup                            " This is recommended by coc
@@ -41,3 +41,8 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 
 " You can't stop me
 cmap w!! w !sudo tee %
+
+augroup RestoreCursorShapeOnExit
+    autocmd!
+    autocmd VimLeave * set guicursor=a:hor20
+augroup END
