@@ -34,7 +34,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'airblade/vim-rooter'
     
     "Git support
-    Plug 'airblade/vim-gitgutter'
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
     
     "Extra HTML support
     Plug 'alvan/vim-closetag'
