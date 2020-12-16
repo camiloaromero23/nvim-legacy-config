@@ -50,5 +50,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Start screen
     Plug 'mhinz/vim-startify'
 
+    " Vim Commentary
+    Plug 'tpope/vim-commentary'
     
     call plug#end()
