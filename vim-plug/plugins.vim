@@ -8,8 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
     " Color Theme
-    Plug 'hzchirs/vim-material'
-    
+    "Plug 'hzchirs/vim-material' Not support for airline 
+    Plug 'rakr/vim-one'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     
@@ -31,10 +31,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "FZF
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
     
-    "NERDCommenter
-    Plug 'scrooloose/nerdcommenter'
-
     "Git support
     Plug 'airblade/vim-gitgutter'
     
@@ -45,4 +43,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Vim which key
     Plug 'liuchengxu/vim-which-key'
 
+    " Airline status bar
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+
+    " Start screen
+    Plug 'mhinz/vim-startify'
+
+    
     call plug#end()
