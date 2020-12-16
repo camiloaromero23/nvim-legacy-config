@@ -33,14 +33,8 @@
     \'coc-json',
     \'coc-yaml',
     \'coc-tabnine',
-    \'coc-python'
+    \'coc-python',
+    \'coc-go'
     \ ]
     
-    "FZF file explorer
-    nnoremap <C-p> :FZF<CR>
-    let g:fzf_action = {
-      \ 'ctrl-t': 'tab split',
-      \ 'ctrl-s': 'split',
-      \ 'ctrl-v': 'vsplit'
-      \}
-    let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+    
