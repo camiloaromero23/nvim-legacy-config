@@ -18,6 +18,12 @@ inoremap <S-Down> <Esc>:m+<CR>noremap <C-d> :m .+1<CR>==
 " Escape alternatives
 inoremap jk <Esc>
 inoremap kj <Esc>
+vnoremap jk <Esc>
+vnoremap kj <Esc>
+inoremap <leader><leader> <Esc>
+inoremap <leader><leader> <Esc>
+vnoremap <leader><leader> <Esc>
+vnoremap <leader><leader> <Esc>
 
 " Alternate way to save
 inoremap <C-s> <Esc>:w<CR>
