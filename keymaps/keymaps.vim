@@ -37,3 +37,6 @@ vnoremap <leader>/ :Commentary<CR>
 
 " Remove highlighting after searching
 nnoremap <CR> :noh<CR><CR>
+
+" Git blame
+nnoremap <Leader>gb :<C-u>call gitblame#echo()<CR>

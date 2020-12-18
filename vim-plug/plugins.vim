@@ -38,6 +38,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
+
+    " Git blame support
+    Plug 'zivyangll/git-blame.vim'
     
     "Extra HTML support
     Plug 'alvan/vim-closetag'
