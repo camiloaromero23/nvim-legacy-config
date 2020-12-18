@@ -64,4 +64,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Quickscope
     Plug 'unblevable/quick-scope'
+
+    " Snippets
+    Plug 'honza/vim-snippets'
+
     call plug#end()
