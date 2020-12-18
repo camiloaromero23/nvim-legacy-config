@@ -15,13 +15,14 @@ nnoremap <S-Up> :m-2<CR>
 nnoremap <S-Down> :m+<CR>
 inoremap <S-Up> <Esc>:m-2<CR>
 inoremap <S-Down> <Esc>:m+<CR>noremap <C-d> :m .+1<CR>==
-
+assdfsd;f;sd;fsdfd
 
 " Escape alternatives
 inoremap jk <Esc>
 inoremap kj <Esc>
 
 " Alternate way to save
+inoremap <C-s> <Esc>:w<CR>
 nnoremap <C-s> :w<CR>
 
 " <TAB>: completion.
