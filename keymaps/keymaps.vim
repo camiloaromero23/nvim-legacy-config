@@ -49,3 +49,6 @@ nnoremap <CR> :noh<CR><CR>
 
 " Git blame
 nnoremap <Leader>gb :<C-u>call gitblame#echo()<CR>
+
+" Trigger completion
+inoremap <silent><expr> <c-space> coc#refresh()
