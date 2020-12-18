@@ -12,6 +12,7 @@ source $HOME/.config/nvim/confFiles/start-screen.vim
 source $HOME/.config/nvim/confFiles/signify.vim
 source $HOME/.config/nvim/confFiles/sneak.vim
 source $HOME/.config/nvim/confFiles/quickscope.vim
+source $HOME/.config/nvim/confFiles/which-key.vim
 lua require'plug-colorizer'
 
 
