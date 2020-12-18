@@ -1,5 +1,3 @@
-let g:mapleader="\<Space>"
-
 " use alt+hjkl to move between split/vsplit panels
 tnoremap <A-h> <C-\><C-n><C-w>h
 tnoremap <A-j> <C-\><C-n><C-w>j
