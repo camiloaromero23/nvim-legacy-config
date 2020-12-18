@@ -59,4 +59,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Vim Commentary
     Plug 'tpope/vim-commentary'
     
+    "Sneak
+    Plug 'justinmk/vim-sneak'
+
     call plug#end()
