@@ -62,4 +62,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Sneak
     Plug 'justinmk/vim-sneak'
 
+    " Quickscope
+    Plug 'unblevable/quick-scope'
     call plug#end()
