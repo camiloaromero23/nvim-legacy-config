@@ -25,6 +25,10 @@ inoremap kj <Esc>
 inoremap <C-s> <Esc>:w<CR>
 nnoremap <C-s> :w<CR>
 
+" Close tab (buffer)
+inoremap <C-w> <Esc>:bd<CR>
+nnoremap <C-w> :bd<CR>
+
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
