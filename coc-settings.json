@@ -26,7 +26,7 @@
   "workspace.ignoredFiletypes": ["log", "txt", "help"],
   "coc.source.buffer.ignoreGitignore": true,
   "explorer.width": 30,
-  "explorer.icon.enableNerdfont": false,
+  "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],

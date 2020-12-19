@@ -40,7 +40,9 @@ For Debian-based distros
 sudo apt install fzf ripgrep universal-ctags silversearcher-ag fd-find
 ```
 
-### Which
+### Font
+
+[JetBrainsMono](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip)
 
 ## Finish installation
 Install VimPlug
