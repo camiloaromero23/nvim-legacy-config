@@ -20,10 +20,8 @@ inoremap jk <Esc>
 inoremap kj <Esc>
 vnoremap jk <Esc>
 vnoremap kj <Esc>
-inoremap <leader><leader> <Esc>
-inoremap <leader><leader> <Esc>
-vnoremap <leader><leader> <Esc>
-vnoremap <leader><leader> <Esc>
+imap <leader><leader> <Esc>
+vmap <leader><leader> <Esc>
 
 " Alternate way to save
 inoremap <C-s> <Esc>:w<CR>
@@ -32,6 +30,11 @@ nnoremap <C-s> :w<CR>
 " Close tab (buffer)
 inoremap <C-w> <Esc>:bd<CR>
 nnoremap <C-w> :bd<CR>
+
+" Close NeoVim
+inoremap <C-q> <Esc>:q<CR>
+vnoremap <C-q> <Esc>:bd<CR>
+nnoremap <C-q> :q<CR>
 
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
