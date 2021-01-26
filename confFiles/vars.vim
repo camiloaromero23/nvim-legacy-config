@@ -34,7 +34,8 @@
     \'coc-yaml',
     \'coc-tabnine',
     \'coc-python',
-    \'coc-go'
+    \'coc-go',
+    \'coc-clangd'
     \ ]
     
     
