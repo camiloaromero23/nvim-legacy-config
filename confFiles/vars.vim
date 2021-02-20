@@ -35,7 +35,8 @@
     \'coc-tabnine',
     \'coc-python',
     \'coc-go',
-    \'coc-clangd'
+    \'coc-clangd',
+    \'coc-docker'
     \ ]
     
     
