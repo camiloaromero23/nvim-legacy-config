@@ -14,6 +14,3 @@ source $HOME/.config/nvim/confFiles/sneak.vim
 source $HOME/.config/nvim/confFiles/quickscope.vim
 source $HOME/.config/nvim/confFiles/which-key.vim
 source $HOME/.config/nvim/confFiles/rainbow-parentheses.vim
-lua require'plug-colorizer'
-
-
