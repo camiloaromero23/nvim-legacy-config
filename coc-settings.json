@@ -39,7 +39,7 @@
       "args": ["--stdio"]
     },
     "go": {
-      "command": "gopls",
+      "command": "~/go/bin/gopls",
       "rootPatterns": ["go.mod"],
       "trace.server": "verbose",
       "filetypes": ["go"]
