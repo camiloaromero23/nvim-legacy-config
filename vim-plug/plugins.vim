@@ -10,6 +10,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Color Theme
     "Plug 'hzchirs/vim-material' Not support for airline 
     Plug 'rakr/vim-one'
+
+    Plug 'morhetz/gruvbox'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     

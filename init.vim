@@ -1,6 +1,7 @@
 source $HOME/.config/nvim/vim-plug/plugins.vim
-source $HOME/.config/nvim/themes/one.vim
+"source $HOME/.config/nvim/themes/one.vim
 "source $HOME/.config/nvim/themes/material.vim
+source $HOME/.config/nvim/themes/gruvbox.vim
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/keymaps/keymaps.vim
 source $HOME/.config/nvim/keymaps/terminal.vim
