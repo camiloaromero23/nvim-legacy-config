@@ -70,4 +70,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Snippets
     Plug 'honza/vim-snippets'
 
+    " LSP
+    Plug 'neovim/nvim-lspconfig'
+
     call plug#end()
