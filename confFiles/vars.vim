@@ -36,7 +36,8 @@
     \'coc-python',
     \'coc-go',
     \'coc-clangd',
-    \'coc-docker'
+    \'coc-docker',
+    \'coc-java'
     \ ]
     
     
