@@ -7,14 +7,15 @@ if (has("autocmd") && !has("gui_running"))
 endif
 
 hi Comment cterm=italic
-let g:material_style='oceanic'
+let g:material_terminal_italics = 1
+let g:material_theme_style='darker'
 let g:rainbow#max_level = 16
 let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
 
 autocmd FileType * RainbowParentheses
 
 syntax on
-colorscheme vim-material
+colorscheme material
 
 
 " checks if your terminal has 24-bit color support
