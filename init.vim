@@ -1,3 +1,6 @@
+if exists('g:vscode')
+    " VSCode extension
+endif
 source $HOME/.config/nvim/vim-plug/plugins.vim
 "source $HOME/.config/nvim/themes/one.vim
 "source $HOME/.config/nvim/themes/material.vim
