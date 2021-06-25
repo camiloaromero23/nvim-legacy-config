@@ -12,7 +12,7 @@ nnoremap <A-l> <C-w>l
 nnoremap <S-Up> :m-2<CR>
 nnoremap <S-Down> :m+<CR>
 inoremap <S-Up> <Esc>:m-2<CR>
-inoremap <S-Down> <Esc>:m+<CR>noremap <C-d> :m .+1<CR>==
+inoremap <S-Down> <Esc>:m+<CR>
 
 
 " Escape alternatives
@@ -46,12 +46,6 @@ nnoremap <S-TAB> :bprevious<CR>
 
 nnoremap <leader>/ :Commentary<CR>
 vnoremap <leader>/ :Commentary<CR>
-
-" Remove highlighting after searching
-nnoremap <CR> :noh<CR><CR>
-
-" Git blame
-nnoremap <Leader>gb :<C-u>call gitblame#echo()<CR>
 
 " Trigger completion
 inoremap <silent><expr> <c-space> coc#refresh()

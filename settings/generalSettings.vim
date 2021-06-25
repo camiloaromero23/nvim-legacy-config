@@ -24,6 +24,7 @@ set autoindent                          " Good auto indent
 set laststatus=0                        " Always display the status line
 set number                              " Line numbers
 set cursorline                          " Enable highlighting of the current line
+set nohlsearch
 hi CursorLine term=bold cterm=bold guibg=#0c1421
 hi CursorLineNr term=bold cterm=bold guibg=#0c1421
 set background=dark                     " tell vim what the background color looks like
