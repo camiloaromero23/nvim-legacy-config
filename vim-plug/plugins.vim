@@ -42,7 +42,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
 
     " Git blame support
-    Plug 'zivyangll/git-blame.vim'
+    Plug 'f-person/git-blame.nvim'
     
     "Extra HTML support
     Plug 'alvan/vim-closetag'
