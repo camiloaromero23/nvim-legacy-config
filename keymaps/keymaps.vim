@@ -20,8 +20,6 @@ inoremap jk <Esc>
 inoremap kj <Esc>
 vnoremap jk <Esc>
 vnoremap kj <Esc>
-imap <leader><leader> <Esc>
-vmap <leader><leader> <Esc>
 
 " Alternate way to save
 inoremap <C-s> <Esc>:w<CR>
