@@ -73,4 +73,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " LSP
     Plug 'neovim/nvim-lspconfig'
 
+    " Additional Go support
+    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
     call plug#end()
